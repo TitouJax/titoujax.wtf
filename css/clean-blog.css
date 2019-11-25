@@ -89,12 +89,13 @@ img::-moz-selection {
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 0px solid #e9ecef;
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
+  margin-left:-200px;	
   font-weight: 800;
   color: #343a40;
 }
@@ -116,7 +117,7 @@ img::-moz-selection {
 
 @media only screen and (min-width: 992px) {
   #mainNav {
-    border-bottom: 1px solid transparent;
+    border-bottom: 0px solid transparent;
     background: transparent;
   }
   #mainNav .navbar-brand {
@@ -147,7 +148,7 @@ img::-moz-selection {
     position: fixed;
     top: -67px;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
+    border-bottom: 0px solid white;
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
@@ -315,7 +316,7 @@ header.masthead .post-heading .meta a {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 0px solid #dee2e6;
 }
 
 .floating-label-form-group input,
@@ -366,20 +367,20 @@ header.masthead .post-heading .meta a {
 }
 
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid #dee2e6;
+  border-top: 0px solid #dee2e6;
 }
 
 footer {
-  padding: 50px 0 50px;
+  padding: 30px 0 20px;
 }
 
 footer .list-inline {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 2px;
 }
 
 footer .copyright {
-  font-size: 14px;
+  font-size: 0px;
   margin-bottom: 0;
   text-align: center;
 }
